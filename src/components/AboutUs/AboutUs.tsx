@@ -124,7 +124,7 @@ const AboutUs = () => {
                 solutions, HIDEAL INVESTMENT Ltd is uniquely positioned to
                 deliver exceptional results. Our collective expertise enables us
                 to seamlessly integrate renewable energy solutions into our
-                projects, ensuring maximum eciency and sustainability.
+                projects, ensuring maximum efficiency and sustainability.
               </p>
             </div>
           </div>
@@ -145,7 +145,7 @@ const AboutUs = () => {
             At HIDEAL INVESTMENT Ltd, we are passionate about green building. We
             believe that sustainable construction is not only environmentally
             responsible but also economically viable in the long term. By
-            prioritizing energy-ecient designs, renewable energy sources, and
+            prioritizing energy-efficient designs, renewable energy sources, and
             eco-friendly materials, we strive to minimize our carbon footprint
             while creating spaces that promote health, comfort, and
             well-being.Innovation and Technology:
@@ -172,7 +172,7 @@ const AboutUs = () => {
             to making a positive impact on the communities we serve. Through
             partnerships, outreach programs, and community initiatives, we
             actively seek to empower local residents and contribute to
-            sustainable development eorts.
+            sustainable development efforts.
           </p>
         </div>
 

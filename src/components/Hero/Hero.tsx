@@ -10,13 +10,13 @@ const Hero = () => {
           <Image src={"/Logo.png"} fill alt="Logo" />
         </div>
 
-        <div className="h-[100px] 2xl:w-[900px] md:w-[600px] border-[4px] border-[#565b67] rounded-full absolute 2xl:-left-28 2xl:-top-14 md:-left-12 md:-top-14"></div>
-        <div className="h-[100px] 2xl:w-[900px] md:w-[600px] border-[4px] border-[#565b67] rounded-full absolute 2xl:-right-28 2xl:-top-14 md:-right-12 md:-top-14"></div>
-        <div className="h-[100px] md:w-[500px] 2xl:w-[800px] border-[4px] border-[#565b67] rounded-full absolute 2xl:-left-28 2xl:top-24 md:top-28 md:-left-12"></div>
+        <div className="h-[100px] 2xl:w-[700px] md:w-[600px] border-[4px] border-[#565b67] rounded-full absolute 2xl:-left-28 2xl:-top-14 md:-left-12 md:-top-14"></div>
+        <div className="h-[100px] 2xl:w-[700px] md:w-[600px] border-[4px] border-[#565b67] rounded-full absolute 2xl:-right-28 2xl:-top-14 md:-right-12 md:-top-14"></div>
+        <div className="h-[100px] md:w-[500px] 2xl:w-[600px] border-[4px] border-[#565b67] rounded-full absolute 2xl:-left-28 2xl:top-24 md:top-28 md:-left-12"></div>
 
-        <div className="h-[100px] md:w-[500px] 2xl:w-[800px] border-[4px] border-[#565b67] rounded-full absolute 2xl:-right-28 2xl:top-24 md:top-28 md:-right-12"></div>
-        <div className="h-[100px] md:w-[500px] 2xl:w-[800px] border-[4px] border-[#565b67] rounded-full absolute 2xl:-right-52 2xl:-bottom-6 md:-bottom-24 md:-right-36 z-30"></div>
-        <div className="h-[100px] md:w-[500px] 2xl:w-[800px] border-[4px] border-[#565b67] rounded-full absolute 2xl:-left-52 2xl:-bottom-6 md:-bottom-24 md:-left-36 z-30"></div>
+        <div className="h-[100px] md:w-[500px] 2xl:w-[600px] border-[4px] border-[#565b67] rounded-full absolute 2xl:-right-28 2xl:top-24 md:top-28 md:-right-12"></div>
+        <div className="h-[100px] md:w-[500px] 2xl:w-[600px] border-[4px] border-[#565b67] rounded-full absolute 2xl:-right-52 2xl:-bottom-28 md:-bottom-24 md:-right-36 z-30"></div>
+        <div className="h-[100px] md:w-[500px] 2xl:w-[600px] border-[4px] border-[#565b67] rounded-full absolute 2xl:-left-52 2xl:-bottom-28 md:-bottom-24 md:-left-36 z-30"></div>
       </div>
 
       <div
