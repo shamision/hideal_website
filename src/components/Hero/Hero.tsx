@@ -4,7 +4,7 @@ import Image from "next/image"
 
 const Hero = () => {
   return (
-    <div className="relative h-screen w-screen bg-[#402c61] overflow-hidden">
+    <section className="relative h-screen w-screen bg-[#402c61] overflow-hidden">
       <div className="relative h-1/3 w-screen pt-32">
         <div className="w-[240px] mx-auto h-[100px] relative overflow-hidden">
           <Image src={"/Logo.png"} fill alt="Logo" />
@@ -42,7 +42,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   )
 }
 

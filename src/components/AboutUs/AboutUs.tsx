@@ -4,7 +4,7 @@ import Image from "next/image"
 
 const AboutUs = () => {
   return (
-    <div className="bg-white overflow-hidden container">
+    <section className="bg-white overflow-hidden container">
       <div className="py-8 ">
         <div className="relative w-full h-[600px] rounded-[50px] overflow-hidden">
           <Image
@@ -191,7 +191,7 @@ const AboutUs = () => {
           </p>
         </div>
       </div>
-    </div>
+    </section>
   )
 }
 
