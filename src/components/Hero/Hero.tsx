@@ -5,18 +5,22 @@ import Image from "next/image"
 const Hero = () => {
   return (
     <section className="relative h-screen w-screen bg-[#402c61] overflow-hidden">
-      <div className="relative h-1/3 w-screen pt-32">
+      <div className="relative h-1/3 w-screen md:pt-32 pt-12">
         <div className="w-[240px] mx-auto h-[100px] relative overflow-hidden">
           <Image src={"/Logo.png"} fill alt="Logo" />
         </div>
 
-        <div className="h-[100px] 2xl:w-[700px] md:w-[600px] border-[4px] border-[#565b67] rounded-full absolute 2xl:-left-28 2xl:-top-14 md:-left-12 md:-top-14"></div>
-        <div className="h-[100px] 2xl:w-[700px] md:w-[600px] border-[4px] border-[#565b67] rounded-full absolute 2xl:-right-28 2xl:-top-14 md:-right-12 md:-top-14"></div>
-        <div className="h-[100px] md:w-[500px] 2xl:w-[600px] border-[4px] border-[#565b67] rounded-full absolute 2xl:-left-28 2xl:top-24 md:top-28 md:-left-12"></div>
+        <div className="md:block hidden h-[100px] 2xl:w-[700px] md:w-[600px] border-[4px] border-[#565b67] rounded-full absolute 2xl:-left-28 2xl:-top-14 md:-left-12 md:-top-14"></div>
 
-        <div className="h-[100px] md:w-[500px] 2xl:w-[600px] border-[4px] border-[#565b67] rounded-full absolute 2xl:-right-28 2xl:top-24 md:top-28 md:-right-12"></div>
-        <div className="h-[100px] md:w-[500px] 2xl:w-[600px] border-[4px] border-[#565b67] rounded-full absolute 2xl:-right-52 2xl:-bottom-28 md:-bottom-24 md:-right-36 z-30"></div>
-        <div className="h-[100px] md:w-[500px] 2xl:w-[600px] border-[4px] border-[#565b67] rounded-full absolute 2xl:-left-52 2xl:-bottom-28 md:-bottom-24 md:-left-36 z-30"></div>
+        <div className="md:block hidden h-[100px] 2xl:w-[700px] md:w-[600px] border-[4px] border-[#565b67] rounded-full absolute 2xl:-right-28 2xl:-top-14 md:-right-12 md:-top-14"></div>
+
+        <div className="md:block hidden h-[100px] md:w-[500px] 2xl:w-[600px] border-[4px] border-[#565b67] rounded-full absolute 2xl:-left-28 2xl:top-24 md:top-28 md:-left-12"></div>
+
+        <div className="md:block hidden h-[100px] md:w-[500px] 2xl:w-[600px] border-[4px] border-[#565b67] rounded-full absolute 2xl:-right-28 2xl:top-24 md:top-28 md:-right-12"></div>
+
+        <div className="md:block hidden h-[100px] md:w-[500px] 2xl:w-[600px] border-[4px] border-[#565b67] rounded-full absolute 2xl:-right-52 2xl:-bottom-28 md:-bottom-24 md:-right-36 z-30"></div>
+
+        <div className="md:block hidden h-[100px] md:w-[500px] 2xl:w-[600px] border-[4px] border-[#565b67] rounded-full absolute 2xl:-left-52 2xl:-bottom-28 md:-bottom-24 md:-left-36 z-30"></div>
       </div>
 
       <div
@@ -28,7 +32,7 @@ const Hero = () => {
         </div>
 
         <div className="w-[420px] h-[400px] absolute top-0 right-1/2 translate-x-1/2 z-50">
-          <h1 className="text-center text-[50px]">
+          <h1 className="text-center md:text-[50px] text-[40px]">
             <span className="font-bold text-white">
               REAL ESTATE DEVELOPMENT &
             </span>

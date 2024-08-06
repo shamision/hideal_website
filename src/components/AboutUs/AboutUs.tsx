@@ -6,7 +6,7 @@ const AboutUs = () => {
   return (
     <section className="bg-white overflow-hidden container">
       <div className="py-8 ">
-        <div className="relative w-full h-[600px] rounded-[50px] overflow-hidden">
+        <div className="relative w-full md:h-[600px] h-[450px] rounded-[50px] overflow-hidden">
           <Image
             alt="image"
             src={"/img3.jpg"}
@@ -15,8 +15,8 @@ const AboutUs = () => {
           />
         </div>
 
-        <div className="grid grid-cols-12 mt-14 gap-[80px] px-8">
-          <div className="relative rounded-[32px] col-span-4 bg-[#8fc740] pt-12 pl-6 pr-3 pb-4 flex flex-col flex-shrink-0">
+        <div className="grid md:grid-cols-12 grid-cols-1 mt-14 gap-[80px] md:px-8 px-0">
+          <div className="relative rounded-[32px] md:col-span-4 bg-[#8fc740] pt-12 pl-6 pr-3 pb-4 flex flex-col flex-shrink-0">
             <p className="text-base text-white font-thin">
               HIDEAL INVESTMENT Ltd is a forward-thinking company dedicated to
               revolutionizing the real estate development landscape through
@@ -66,7 +66,7 @@ const AboutUs = () => {
             </div>
           </div>
 
-          <div className="space-y-4 grid col-span-8">
+          <div className="space-y-4 grid md:col-span-8">
             <div className="space-y-4 ">
               <span className="border border-[#8fc740] py-3 px-6 inline-flex flex-shrink-0  rounded-full">
                 <h1 className="text-[#44336d] font-medium text-xl">
@@ -105,14 +105,14 @@ const AboutUs = () => {
       </div>
 
       <div className="space-y-12 py-16">
-        <div className="w-full h-[600px] relative">
+        <div className="w-full md:h-[600px] h-[300px] relative">
           <Image alt="image" src={"/img4.jpg"} fill />
         </div>
 
-        <div className="grid grid-cols-5 gap-4">
-          <div className="col-span-2 w-[400px]">
+        <div className="grid md:grid-cols-5 grid-cols-1 gap-4">
+          <div className="md:col-span-2 md:w-[400px] w-full">
             <div className="space-y-4 ">
-              <span className="border border-[#8fc740] py-3 px-6 flex  rounded-full">
+              <span className="border border-[#8fc740] py-3 md:px-6 px-12 md:flex inline-flex rounded-full">
                 <h1 className="text-[#44336d] font-medium text-xl">
                   Expertise:
                 </h1>
@@ -129,13 +129,13 @@ const AboutUs = () => {
             </div>
           </div>
 
-          <div className="col-span-3 relative w-full">
+          <div className="md:col-span-3 md:h-full h-[300px] relative w-full">
             <Image alt="image" src={"/img8.jpg"} fill />
           </div>
         </div>
 
         <div className="space-y-4 ">
-          <span className="border border-[#8fc740] py-3 px-16 inline-flex  rounded-full">
+          <span className="border border-[#8fc740] py-3 md:px-16 px-4 inline-flex  rounded-full">
             <h1 className="text-[#44336d] font-medium text-xl">
               Commitment to Green Building:
             </h1>
@@ -161,7 +161,7 @@ const AboutUs = () => {
         </div>
 
         <div className="space-y-4 ">
-          <span className="border border-[#8fc740] py-3 px-16 inline-flex  rounded-full">
+          <span className="border border-[#8fc740] py-3 md:px-16 px-4 inline-flex  rounded-full">
             <h1 className="text-[#44336d] font-medium text-xl">
               Community Engagement:
             </h1>

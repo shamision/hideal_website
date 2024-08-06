@@ -7,6 +7,7 @@ export default function Home() {
     <main>
       <Hero />
       <AboutUs />
+
       <Footer />
     </main>
   )
