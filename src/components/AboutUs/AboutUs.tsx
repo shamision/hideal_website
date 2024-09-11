@@ -10,8 +10,8 @@ const AboutUs = () => {
           <Image
             alt="image"
             src={"/img3.jpg"}
-            fill
-            style={{ objectFit: "fill" }}
+            layout="fill"
+            objectFit="cover"
           />
         </div>
 
@@ -105,9 +105,15 @@ const AboutUs = () => {
       </div>
 
       <div className="space-y-12 py-16">
-        <div className="w-full md:h-[600px] h-[300px] relative">
-          <Image alt="image" src={"/img4.jpg"} fill />
+        <div className="relative w-full h-[300px] md:h-[600px]">
+          <Image
+            alt="image"
+            src="/img4.jpg"
+            layout="fill"
+            objectFit="cover" 
+          />
         </div>
+
 
         <div className="grid md:grid-cols-5 grid-cols-1 gap-4">
           <div className="md:col-span-2 md:w-[400px] w-full">
@@ -129,9 +135,15 @@ const AboutUs = () => {
             </div>
           </div>
 
-          <div className="md:col-span-3 md:h-full h-[300px] relative w-full">
-            <Image alt="image" src={"/img8.jpg"} fill />
+          <div className="relative w-full h-[300px] md:h-full md:col-span-3">
+            <Image
+              alt="image"
+              src="/img8.jpg"
+              layout="fill"
+              objectFit="cover"
+            />
           </div>
+
         </div>
 
         <div className="space-y-4 ">
