@@ -6,9 +6,16 @@ const Hero = () => {
   return (
     <section className="relative h-screen w-screen bg-[#402c61] overflow-hidden">
       <div className="relative h-1/3 w-screen md:pt-32 pt-12">
-        <div className="w-[240px] mx-auto h-[100px] relative overflow-hidden">
-          <Image src={"/Logo.png"} fill alt="Logo" />
+        <div className="relative w-[240px] h-[100px] mx-auto overflow-hidden">
+          <Image
+            src="/Logo.png"
+            alt="Logo"
+            layout="fill"
+            objectFit="contain"
+            objectPosition="center" 
+          />
         </div>
+
 
         <div className="md:block hidden h-[100px] 2xl:w-[700px] xl:w-[600px]  md:w-[400px] border-[4px] border-[#565b67] rounded-full absolute 2xl:-left-28 2xl:-top-14 md:-left-12 left-0 md:-top-14"></div>
 
@@ -25,7 +32,7 @@ const Hero = () => {
 
       <div
         className="h-2/3 w-screen relative"
-        // style={{ backgroundImage: "url(/bg.png)" }}
+      // style={{ backgroundImage: "url(/bg.png)" }}
       >
         <div className="h-full w-full relative overflow-hidden -bottom-16">
           <Image src={"/bg.png"} fill alt="background_image" />

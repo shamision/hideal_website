@@ -8,9 +8,16 @@ const Footer = () => {
       <div className="flex flex-col justify-center items-center">
         <div className="flex justify-center items-center  border border-[#8fc740] md:w-[500px] w-[370px] aspect-square mt-20 rounded-full">
           <div className="border border-[#8fc740] md:w-[380px] w-[280px] aspect-square rounded-full text-white flex flex-col alig justify-center items-center font-thin">
-            <div className="md:w-[240px] w-[180px] mx-auto md:h-[100px] h-[100px] relative overflow-hidden">
-              <Image src={"/Logo.png"} fill alt="Logo" />
+            <div className="relative w-[180px] md:w-[240px] h-[100px] mx-auto overflow-hidden">
+              <Image
+                src="/Logo.png"
+                alt="Logo"
+                layout="fill"
+                objectFit="contain"
+                objectPosition="center"
+              />
             </div>
+
             <p className="pt-3">Kigali - Rwanda</p>
             <p>KN .55 KG 676 st</p>
             <p>Kimihurura, Gasabo</p>
