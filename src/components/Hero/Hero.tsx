@@ -12,12 +12,11 @@ const Hero = () => {
             alt="Logo"
             layout="fill"
             objectFit="contain"
-            objectPosition="center" 
+            objectPosition="center"
           />
         </div>
 
-
-        <div className="md:block hidden h-[100px] 2xl:w-[700px] xl:w-[600px]  md:w-[400px] border-[4px] border-[#565b67] rounded-full absolute 2xl:-left-28 2xl:-top-14 md:-left-12 left-0 md:-top-14"></div>
+        <div className="md:block hidden h-[100px] 2xl:w-[700px]  xl:w-[600px]  md:w-[400px] border-[4px] border-[#565b67] rounded-full absolute 2xl:-left-28 2xl:-top-14 md:-left-12 left-0 md:-top-14"></div>
 
         <div className="md:block hidden h-[100px] 2xl:w-[700px] xl:w-[600px] md:w-[400px] border-[4px] border-[#565b67] rounded-full absolute 2xl:-right-28 2xl:-top-14 md:-right-12 md:-top-14"></div>
 
@@ -25,14 +24,14 @@ const Hero = () => {
 
         <div className="md:block hidden h-[100px] 2xl:w-[600px] xl:w-[500px] md:w-[300px] border-[4px] border-[#565b67] rounded-full absolute 2xl:-right-28 2xl:top-24 md:top-28 md:-right-12"></div>
 
-        <div className="md:block hidden h-[100px] xl:w-[500px] md:w-[300px] 2xl:w-[600px] border-[4px] border-[#565b67] rounded-full absolute 2xl:-right-52 2xl:-bottom-4 md:bottom-36 xl:-bottom-24 md:-right-36 z-30"></div>
+        <div className="md:block hidden h-[100px] xl:w-[500px] md:w-[300px]  2xl:w-[600px] border-[4px] border-[#565b67] rounded-full absolute 2xl:-right-52 2xl:top-[250px] md:top-[270px] xl:top-[270px] md:-right-36 z-30"></div>
 
-        <div className="md:block hidden h-[100px] xl:w-[500px] md:w-[300px] 2xl:w-[600px] border-[4px] border-[#565b67] rounded-full absolute 2xl:-left-52 2xl:-bottom-4 md:bottom-36 xl:-bottom-24 md:-left-36 z-30"></div>
+        <div className="md:block hidden h-[100px] xl:w-[500px] md:w-[300px] 2xl:w-[600px] border-[4px] border-[#565b67] rounded-full xl:top-[270px] absolute 2xl:top-[250px] 2xl:-left-52 md:top-[270px] md:-left-36 z-30"></div>
       </div>
 
       <div
         className="h-2/3 w-screen relative"
-      // style={{ backgroundImage: "url(/bg.png)" }}
+        // style={{ backgroundImage: "url(/bg.png)" }}
       >
         <div className="h-full w-full relative overflow-hidden -bottom-16">
           <Image src={"/bg.png"} fill alt="background_image" />
